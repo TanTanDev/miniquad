@@ -30,7 +30,7 @@ For higher level API take a look on:
 ## Not supported, but desirable platforms
 
 * Android, GLES2 - work in progress.
-* Metal. For both MacOs and IOS metal rendering backend next to opengl one is highly desirable. But I just dont have any MacOs capable hardware to start working on it :/
+* Metal. For both MacOs and IOS metal rendering backend next to opengl one is highly desirable. But I just don't have any MacOs capable hardware to start working on it :/
 
 ## Examples
 
@@ -119,7 +119,7 @@ basic-http-server .
 ## android
 
 Recommended way to build for android is using Docker.<br/>
-miniquad use slightly modifed version of `cargo-apk`
+miniquad use slightly modified version of `cargo-apk`
 
 ```
 docker run --rm -v $(pwd)":/root/src" -w /root/src notfl3/cargo-apk cargo apk build --example quad
@@ -152,7 +152,7 @@ cargo run --example quad --target x86_64-pc-windows-gnu
 
 * Low-end devices support.
 
-* Hackability. Working on your own game, highly probable some hardware incompability will be found. Working around that kind of bugs should be easy, implementation details should not be hidden under layers of abstraction.
+* Hackability. Working on your own game, highly probable some hardware incompatibility will be found. Working around that kind of bugs should be easy, implementation details should not be hidden under layers of abstraction.
 
 # Non goals
 
